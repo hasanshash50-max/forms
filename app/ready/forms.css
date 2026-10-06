@@ -1,0 +1,163 @@
+body{
+    display: flex;
+    align-items: center;
+    background: #4d494969;
+    height: 107vh;
+}
+h1{
+    color: #08eb08;
+}
+*{
+    font-family: serif;
+}
+::placeholder{
+     font-size: 14px;
+}
+div.one{
+    background: #fff;
+    border: solid 2px #fff;
+    border-radius: 8px;
+    box-shadow: 1px 1px 8px 3px #222;
+    margin-top: 10px;
+    width: 400px;
+    height: 650px;
+    position: relative;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+}
+input{
+    border: solid 0.5px #000;
+    display: flex;
+    width: 95%;
+    margin: 0px 10px;
+    padding: 1px 5px;
+    outline: none;
+}
+label{
+    margin: 0px 10px;
+}
+#read{
+    position: absolute;
+    left: 100px;
+    bottom: 356px;
+    width: 15px;
+}
+#write{
+    position: absolute;
+    left: 180px;
+    bottom: 354px;
+    width: 15px;
+}
+#book{
+    position: absolute;
+    left: 280px;
+    bottom: 352px;
+    width: 15px;
+}
+#male{
+    position: relative;
+    left: 47px;
+    bottom: -22px;
+}
+#female{
+    position: absolute;
+    left: 207px;
+    bottom: 347px;
+}
+#other{
+    position: absolute;
+    left: 305px;
+    bottom: 346px;
+    width: 15px;
+}
+#box{
+    position: absolute;
+    left: 120px;
+    bottom: 300px;
+}
+#check{
+    position: absolute;
+    left: 100px;
+    bottom: 306px;
+    width: 15px;
+}
+#box1{
+    position: absolute;
+    left: 210px;
+    bottom: 300px;
+}
+#check1{
+    position: absolute;
+    left: 180px;
+    bottom: 305px;
+    width: 15px;
+}
+#box2{
+    position: absolute;
+    left: 305px;
+    bottom: 300px;
+}
+#check2{
+    position: absolute;
+    left: 280px;
+    bottom: 305px;
+    width: 15px;
+}
+select{
+    border: solid 0.5px #000;
+    width: 95%;
+    height: 30px;
+    margin: 5px 10px;
+    padding: 1px 5px;
+    outline: none;
+}
+#select{
+    position: absolute;
+    bottom: 220px;
+}
+#about{
+    position: absolute;
+    bottom: 160px;
+}
+textarea{
+    border: solid 1px #000;
+    position: absolute;
+    bottom: 72px;
+    left: 10px;
+    width: 95%;
+    height: 90px;
+    padding: 0px 5px;
+    outline: none;
+}
+#submit{
+    width: 40%;
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    border: none;
+    background: green;
+    color: #fff;
+    border-radius: 5px;
+    padding: 4px;
+}
+#submit:hover{
+    cursor: pointer;
+    background: #008000ec;
+}
+#reset{
+    width: 40%;
+    position: absolute;
+    left: 190px;
+    bottom: 20px;
+    border: none;
+    background: red;
+    color: #fff;
+    border-radius: 5px;
+    padding: 4px;
+}
+#reset:hover{
+    cursor: pointer;
+    background: #ff0000d3;
+}
