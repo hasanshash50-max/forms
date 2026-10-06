@@ -40,68 +40,68 @@ label{
 }
 #read{
     position: absolute;
-    left: 100px;
+    left: 80px;
     bottom: 356px;
     width: 15px;
 }
 #write{
     position: absolute;
-    left: 180px;
+    left: 160px;
     bottom: 354px;
     width: 15px;
 }
 #book{
     position: absolute;
-    left: 280px;
+    left: 240px;
     bottom: 352px;
     width: 15px;
 }
 #male{
     position: relative;
-    left: 47px;
+    left: 25px;
     bottom: -22px;
 }
 #female{
     position: absolute;
-    left: 207px;
+    left: 180px;
     bottom: 347px;
 }
 #other{
     position: absolute;
-    left: 305px;
+    left: 260px;
     bottom: 346px;
     width: 15px;
 }
 #box{
     position: absolute;
-    left: 120px;
+    left: 100px;
     bottom: 300px;
 }
 #check{
     position: absolute;
-    left: 100px;
+    left: 80px;
     bottom: 306px;
     width: 15px;
 }
 #box1{
     position: absolute;
-    left: 210px;
+    left: 180px;
     bottom: 300px;
 }
 #check1{
     position: absolute;
-    left: 180px;
+    left: 160px;
     bottom: 305px;
     width: 15px;
 }
 #box2{
     position: absolute;
-    left: 305px;
+    left: 260px;
     bottom: 300px;
 }
 #check2{
     position: absolute;
-    left: 280px;
+    left: 240px;
     bottom: 305px;
     width: 15px;
 }
@@ -160,4 +160,16 @@ textarea{
 #reset:hover{
     cursor: pointer;
     background: #ff0000d3;
+}
+@media(max-width : 700px)
+{
+    div.one{
+        width: 340px;
+        margin: 10px auto;
+    }
+    #reset{
+        position: absolute;
+        left: 170px;
+        bottom: 20px;
+    }
 }
