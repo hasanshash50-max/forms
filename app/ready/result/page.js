@@ -15,7 +15,7 @@ export default function Result() {
     }, []);
 
     return (
-        <div style={{border:"solid 2px #000" , padding:"10px"}}>
+        <div style={{border:"solid 2px #000" , padding:"10px" , margin:"10px" , borderRadius:"5px"}}>
             <h1 style={{color:"red"}}>Form Result</h1>
             <p style={{fontWeight:"bolder"}}>First Name : {data.name}</p>
             <p style={{fontWeight:"bolder"}}>Last Name : {data.name1}</p>
