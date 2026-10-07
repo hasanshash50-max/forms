@@ -30,11 +30,15 @@ h1{
 }
 input{
     border: solid 0.5px #000;
+    border-radius: 5px;
     display: flex;
     width: 95%;
     margin: 0px 10px;
     padding: 1px 5px;
     outline: none;
+}
+input:hover{
+    transform: scalex(1.03);
 }
 label{
     margin: 0px 10px;
@@ -109,6 +113,7 @@ label{
 }
 select{
     border: solid 0.5px #000;
+    border-radius: 5px;
     width: 95%;
     height: 30px;
     margin: 5px 10px;
@@ -126,6 +131,7 @@ select{
 }
 textarea{
     border: solid 1px #000;
+    border-radius: 5px;
     position: absolute;
     bottom: 72px;
     left: 10px;
