@@ -64,13 +64,13 @@ export default function() {
 
                 <label>Gender*</label>
                 <label id="male">Male</label>
-                <input type="radio" name="read" value="start" id="read" required></input>
+                <input type="radio" name="read" value="Male" id="read" required></input>
 
                 <label id="female">Female</label>
-                <input type="radio" name="read" value="#start" id="write"></input>
+                <input type="radio" name="read" value="Female" id="write"></input>
 
                 <label id="other">Other</label>
-                <input type="radio" name="read" value="##start" id="book"></input>
+                <input type="radio" name="read" value="Other" id="book"></input>
 
                 <br></br><br></br>
 
