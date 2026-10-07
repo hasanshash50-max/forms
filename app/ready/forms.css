@@ -42,57 +42,57 @@ label{
 }
 #read{
     position: absolute;
-    left: 60px;
+    left: 50px;
     bottom: 356px;
     width: 15px;
 }
 #write{
     position: absolute;
-    left: 140px;
+    left: 130px;
     bottom: 356px;
     width: 15px;
 }
 #book{
     position: absolute;
-    left: 220px;
+    left: 218px;
     bottom: 356px;
     width: 15px;
 }
 #male{
     position: relative;
-    left: 5px;
-    bottom: -20px;
+    left: 2px;
+    bottom: -18px;
 }
 #female{
     position: absolute;
-    left: 160px;
-    bottom: 350px;
+    left: 150px;
+    bottom: 352px;
 }
 #other{
     position: absolute;
     left: 240px;
-    bottom: 351px;
+    bottom: 353px;
     width: 15px;
 }
 #box{
     position: absolute;
-    left: 80px;
+    left: 70px;
     bottom: 300px;
 }
 #check{
     position: absolute;
-    left: 60px;
+    left: 50px;
     bottom: 306px;
     width: 15px;
 }
 #box1{
     position: absolute;
-    left: 160px;
+    left: 150px;
     bottom: 300px;
 }
 #check1{
     position: absolute;
-    left: 140px;
+    left: 130px;
     bottom: 305px;
     width: 15px;
 }
@@ -103,7 +103,7 @@ label{
 }
 #check2{
     position: absolute;
-    left: 220px;
+    left: 218px;
     bottom: 305px;
     width: 15px;
 }
