@@ -44,7 +44,7 @@ input:hover{
 label{
     margin: 0px 10px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: bolder;
 }
 #read{
     position: absolute;
@@ -68,22 +68,26 @@ label{
     position: relative;
     left: 2px;
     bottom: -19px;
+    font-weight: 400;
 }
 #female{
     position: absolute;
     left: 150px;
     bottom: 352px;
+    font-weight: 400;
 }
 #other{
     position: absolute;
     left: 240px;
     bottom: 353px;
+    font-weight: 400;
     width: 15px;
 }
 #box{
     position: absolute;
     left: 70px;
-    bottom: 300px;
+    bottom: 302px;
+    font-weight: 400;
 }
 #check{
     position: absolute;
@@ -94,7 +98,8 @@ label{
 #box1{
     position: absolute;
     left: 150px;
-    bottom: 300px;
+    bottom: 302px;
+    font-weight: 400;
 }
 #check1{
     position: absolute;
@@ -105,13 +110,18 @@ label{
 #box2{
     position: absolute;
     left: 240px;
-    bottom: 300px;
+    bottom: 302px;
+    font-weight: 400;
 }
 #check2{
     position: absolute;
     left: 218px;
     bottom: 305px;
     width: 15px;
+}
+#sub{
+    position: absolute;
+    top: 296px;
 }
 select{
     border: solid 1px #000;

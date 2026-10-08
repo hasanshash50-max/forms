@@ -74,7 +74,7 @@ export default function() {
 
                 <br></br><br></br>
 
-                <label>Your subject (choice all)</label>
+                <label id="sub">Your subject (choice all)</label>
 
                 <label id="box">English</label>
                 <input type="checkbox" id="check" name="eng" value="English"></input>
