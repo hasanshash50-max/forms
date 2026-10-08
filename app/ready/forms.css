@@ -1,6 +1,7 @@
 body{
     display: flex;
     align-items: center;
+    margin-top: 20px;
     background: #4d494969;
     height: 107vh;
 }
@@ -29,7 +30,7 @@ h1{
     margin: 10px;
 }
 input{
-    border: solid 0.5px #000;
+    border: solid 1px #000;
     border-radius: 5px;
     display: flex;
     width: 95%;
@@ -43,11 +44,12 @@ input:hover{
 label{
     margin: 0px 10px;
     font-size: 14px;
+    font-weight: 500;
 }
 #read{
     position: absolute;
     left: 50px;
-    bottom: 356px;
+    bottom: 353px;
     width: 15px;
 }
 #write{
@@ -65,7 +67,7 @@ label{
 #male{
     position: relative;
     left: 2px;
-    bottom: -18px;
+    bottom: -21px;
 }
 #female{
     position: absolute;
@@ -112,7 +114,7 @@ label{
     width: 15px;
 }
 select{
-    border: solid 0.5px #000;
+    border: solid 1px #000;
     border-radius: 5px;
     width: 95%;
     height: 30px;
