@@ -49,7 +49,7 @@ label{
 #read{
     position: absolute;
     left: 50px;
-    bottom: 353px;
+    bottom: 355px;
     width: 15px;
 }
 #write{
@@ -67,7 +67,7 @@ label{
 #male{
     position: relative;
     left: 2px;
-    bottom: -21px;
+    bottom: -19px;
 }
 #female{
     position: absolute;
