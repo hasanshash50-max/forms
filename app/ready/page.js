@@ -74,16 +74,16 @@ export default function() {
 
                 <br></br><br></br>
 
-                <label id="sub">Your subject (choice all)</label>
+                <label id="sub">Your subject</label>
 
                 <label id="box">English</label>
                 <input type="checkbox" id="check" name="eng" value="English"></input>
 
-                <label id="box1">Maths</label>
-                <input type="checkbox" id="check1" name="eng" value="Maths"></input>
+                <label id="box1">Franch</label>
+                <input type="checkbox" id="check1" name="eng" value="Franch"></input>
 
-                <label id="box2">Physics</label>
-                <input type="checkbox" id="check2" name="eng" value="Physics"></input>
+                <label id="box2">Holand</label>
+                <input type="checkbox" id="check2" name="eng" value="Holand"></input>
 
                 <br></br><br></br>
 
