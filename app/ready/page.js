@@ -7,20 +7,20 @@ export default function() {
         const form = document.querySelector("form");
         const checks = document.querySelectorAll('input[name="eng"]');
 
-        form.addEventListener("submit", function (e) {
-            let selected = false;
+        // form.addEventListener("submit", function (e) {
+        //     let selected = false;
 
-            checks.forEach(function (check) {
-                if (check.checked) {
-                    selected = true;
-                }
-            });
+        //     checks.forEach(function (check) {
+        //         if (check.checked) {
+        //             selected = true;
+        //         }
+        //     });
 
-            if (!selected) {
-                e.preventDefault();
-                alert("Please select at least one with checkbox");
-            }
-        });
+        //     if (!selected) {
+        //         e.preventDefault();
+        //         alert("Please select at least one with checkbox");
+        //     }
+        // });
     }, []);
 
     function submit(e) {
@@ -76,14 +76,8 @@ export default function() {
 
                 <label id="sub">Your subject</label>
 
-                <label id="box">English</label>
-                <input type="checkbox" id="check" name="eng" value="English"></input>
-
-                <label id="box1">Franch</label>
-                <input type="checkbox" id="check1" name="eng" value="Franch"></input>
-
-                <label id="box2">Holand</label>
-                <input type="checkbox" id="check2" name="eng" value="Holand"></input>
+                <label id="box">Laerning Web and English</label>
+                <input type="checkbox" id="check" name="eng" value="Laerning Web and English" required></input>
 
                 <br></br><br></br>
 

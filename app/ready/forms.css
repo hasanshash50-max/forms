@@ -39,7 +39,7 @@ input{
     outline: none;
 }
 input:hover{
-    transform: scalex(1.03);
+    box-shadow: 1px 1px 2px 1px #00000052;
 }
 label{
     margin: 0px 10px;
@@ -51,18 +51,21 @@ label{
     left: 50px;
     bottom: 355px;
     width: 15px;
+    box-shadow: none;
 }
 #write{
     position: absolute;
     left: 130px;
     bottom: 356px;
     width: 15px;
+    box-shadow: none;
 }
 #book{
     position: absolute;
     left: 218px;
     bottom: 356px;
     width: 15px;
+    box-shadow: none;
 }
 #male{
     position: relative;
@@ -94,30 +97,7 @@ label{
     left: 50px;
     bottom: 306px;
     width: 15px;
-}
-#box1{
-    position: absolute;
-    left: 150px;
-    bottom: 302px;
-    font-weight: 400;
-}
-#check1{
-    position: absolute;
-    left: 130px;
-    bottom: 305px;
-    width: 15px;
-}
-#box2{
-    position: absolute;
-    left: 240px;
-    bottom: 302px;
-    font-weight: 400;
-}
-#check2{
-    position: absolute;
-    left: 218px;
-    bottom: 305px;
-    width: 15px;
+    box-shadow: none;
 }
 #sub{
     position: absolute;
@@ -132,6 +112,9 @@ select{
     padding: 1px 5px;
     outline: none;
     font-size: 14px;
+}
+select:hover{
+    box-shadow: 1px 1px 2px 1px #00000052;
 }
 #select{
     position: absolute;
@@ -152,6 +135,9 @@ textarea{
     padding: 0px 5px;
     outline: none;
 }
+textarea:hover{
+    box-shadow: 1px 1px 2px 1px #00000052;
+}
 #submit{
     width: 40%;
     position: absolute;
@@ -162,10 +148,11 @@ textarea{
     color: #fff;
     border-radius: 5px;
     padding: 4px;
+    box-shadow: none;
 }
 #submit:hover{
     cursor: pointer;
-    background: #008000ec;
+    background: #008000d7;
 }
 #reset{
     width: 40%;
@@ -177,10 +164,11 @@ textarea{
     color: #fff;
     border-radius: 5px;
     padding: 4px;
+    box-shadow: none;
 }
 #reset:hover{
     cursor: pointer;
-    background: #ff0000d3;
+    background: #ff0000c5;
 }
 @media(max-width : 700px)
 {
