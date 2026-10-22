@@ -170,6 +170,17 @@ textarea:hover{
     cursor: pointer;
     background: #ff0000c5;
 }
+#button{
+    background: #fff;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 85px;
+    bottom: -15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+}
 @media(max-width : 700px)
 {
     div.one{
