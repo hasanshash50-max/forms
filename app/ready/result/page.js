@@ -26,7 +26,7 @@ export default function Result() {
             <p style={{fontWeight:"bolder"}}>URL : {data.url}</p>
             <p style={{fontWeight:"bolder"}}>Choice : {data.choice}</p>
             <p style={{fontWeight:"bolder"}}>About : {data.about}</p>
-            <Link href="http://localhost:3000/ready"><button id="button">Home</button></Link>
+            <Link href="https://forms-three-alpha.vercel.app/ready"><button id="button">Home</button></Link>
         </div>
     );
 }
