@@ -6,21 +6,6 @@ export default function() {
     useEffect(() => {
         const form = document.querySelector("form");
         const checks = document.querySelectorAll('input[name="eng"]');
-
-        // form.addEventListener("submit", function (e) {
-        //     let selected = false;
-
-        //     checks.forEach(function (check) {
-        //         if (check.checked) {
-        //             selected = true;
-        //         }
-        //     });
-
-        //     if (!selected) {
-        //         e.preventDefault();
-        //         alert("Please select at least one with checkbox");
-        //     }
-        // });
     }, []);
 
     function submit(e) {
